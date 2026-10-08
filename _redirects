@@ -1,0 +1,2 @@
+# Replace YOUR-BACKEND-DOMAIN with your deployed backend host, e.g. https://vml-v83-push.onrender.com
+/api/*  https://YOUR-BACKEND-DOMAIN/:splat  200

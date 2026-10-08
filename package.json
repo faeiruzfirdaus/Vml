@@ -1,0 +1,17 @@
+{
+  "name": "vml-v83-feed-push-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-vapid": "node generate-vapid.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "web-push": "^3.6.7"
+  }
+}
